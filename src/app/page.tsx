@@ -1,5 +1,4 @@
-import { Hero, Navbar } from "@/ui";
-
+import { Hero, MainBlocks, Navbar } from "@/ui";
 
 export default function Home() {
   return (
@@ -7,6 +6,8 @@ export default function Home() {
       <Navbar />
 
       <Hero />
+
+      <MainBlocks />
     </>
   );
 }
