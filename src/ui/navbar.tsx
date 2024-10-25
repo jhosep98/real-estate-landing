@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => (
     >
       <Toolbar>
         <Container
-          maxWidth="xl"
+          maxWidth="lg"
           sx={{
             display: "flex",
             justifyContent: "space-between",

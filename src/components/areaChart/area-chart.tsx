@@ -85,7 +85,7 @@ export const AreaChart = ({
   }>(categories.reduce((acc, cur) => ({ ...acc, [cur]: true }), {}));
 
   return (
-    <ResponsiveContainer>
+    <ResponsiveContainer height="100%" width="100%">
       <CustomRechartsAreaChart
         data={data}
         className="custom-recharts"

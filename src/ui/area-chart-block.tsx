@@ -1,6 +1,6 @@
 import * as React from "react";
-import { styled } from "@mui/material";
-import { SxProps, Theme, useMediaQuery, useTheme } from "@mui/material";
+import Box from "@mui/material/Box";
+import { SxProps, Theme, useMediaQuery, useTheme, styled } from "@mui/material";
 
 import {
   AreaChartModel,
@@ -43,15 +43,15 @@ export const AreaChartBlock: React.FC<AreaChartBlockModel> = ({
     <CardChart
       sx={{
         mx: "auto",
-        aspectRatio: isMqMd ? "1/1" : aspectRatio || "16/9",
-        maxHeight: 620,
-        px: 1,
-        "& > div > div > .custom-recharts": {
-          maxWidth: 974,
-          width: "100% !important",
-        },
         display: "flex",
         flexDirection: "column",
+        p: 0,
+        border: "unset",
+        borderRadius: 0,
+        // aspectRatio: isMqMd ? "1/1" : aspectRatio || "16/9",
+        // maxHeight: 520,
+        // width: "100%",
+        // minHeight: 520,
         ...sx,
       }}
     >
@@ -61,15 +61,24 @@ export const AreaChartBlock: React.FC<AreaChartBlockModel> = ({
         <SubtitleChart {...subTitleProps}>{description}</SubtitleChart>
       )}
 
-      <div
-        style={{
+      <Box
+        sx={{
           ...((title || description) && { paddingTop: "1rem" }),
           width: "100%",
           flex: 1,
+          position: "relative",
+          overflow: "hidden",
+          minHeight: 520,
+          display: 'flex',
+          flexDirection: 'column',
+          '& .recharts-responsive-container': {
+            height: '--webkit-fill-available',
+            flex: 1,
+          }
         }}
       >
         <AreaChart {...props} />
-      </div>
+      </Box>
     </CardChart>
   );
 };

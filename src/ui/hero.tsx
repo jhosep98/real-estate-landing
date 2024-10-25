@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 
 export const Hero: React.FC = () => {
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="lg" sx={{ mt: 1 }}>
       <Box
         sx={{
           minHeight: "80vh",

@@ -33,3 +33,29 @@ export function formatNumber(number: number, numDecimals: number) {
     notation: "compact",
   });
 }
+
+export const formatterCurrencyDollar = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
+
+export const formatterDecimal = new Intl.NumberFormat("en-US", {
+  style: "decimal",
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2,
+});
+
+export const extractDecimalsFromPrice = (value?: number | null) => {
+  if (!value) {
+    return null;
+  }
+
+  const numberString = value.toString();
+  const integer = [...numberString].slice(0, -2).join("");
+  const decimals = [...numberString].slice(-2).join("");
+
+  if (decimals === "00") {
+    return Number(integer).toFixed(2);
+  }
+  return Number(`${integer}.${decimals}`);
+};
