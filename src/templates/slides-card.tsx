@@ -31,11 +31,47 @@ export const SlidesCardTemplate: React.FC = () => {
       />
 
       <SlidesCardInfinite
-        data={Array.from({ length: 10 }).map((_, i) => ({
-          title: `Item ${i}`,
-          description: `Description ${i}`,
-          image:
-            "https://cdn.dribbble.com/userupload/17132041/file/original-6109f569c0571ca61d5b9b5f241de01e.gif",
+        data={[
+          {
+            title: `Item 1`,
+            description: `Description 1`,
+            image:
+              "https://res.cloudinary.com/diusjfaoe/image/upload/v1729897515/cms/image_533_jcibcl.jpg",
+          },
+          {
+            title: `Item 2`,
+            description: `Description 2`,
+            image:
+              "https://res.cloudinary.com/diusjfaoe/image/upload/v1729897514/cms/image_534_eiuw9x.jpg",
+          },
+          {
+            title: `Item 3`,
+            description: `Description 3`,
+            image:
+              "https://res.cloudinary.com/diusjfaoe/image/upload/v1729897514/cms/image_528_wa9lkf.jpg",
+          },
+          {
+            title: `Item 3`,
+            description: `Description 3`,
+            image:
+              "https://res.cloudinary.com/diusjfaoe/image/upload/v1729897514/cms/image_529_he0npw.jpg",
+          },
+          {
+            title: `Item 4`,
+            description: `Description 4`,
+            image:
+              "https://res.cloudinary.com/diusjfaoe/image/upload/v1729897514/cms/image_534_eiuw9x.jpg",
+          },
+          {
+            title: `Item 5`,
+            description: `Description 5`,
+            image:
+              "https://res.cloudinary.com/diusjfaoe/image/upload/v1729897514/cms/image_528_wa9lkf.jpg",
+          },
+        ].map(({ description, image, title }, i) => ({
+          title,
+          description,
+          image,
           tag: "Tag",
           footer: "Footer",
           sx: {

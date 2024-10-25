@@ -36,7 +36,7 @@ export const SlidesCardInfinite: React.FC<SlidesCardInfiniteModel> = ({
         <SwiperSlide
           key={e.title}
           style={{
-            maxWidth: 270,
+            maxWidth: 420,
             marginRight: 20,
           }}
         >

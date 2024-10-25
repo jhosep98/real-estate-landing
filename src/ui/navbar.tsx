@@ -14,12 +14,17 @@ export const Navbar: React.FC = () => (
   <HideOnScroll>
     <AppBar
       elevation={0}
-      sx={{ backgroundColor: "background.default", color: "text.primary" }}
+      sx={{
+        backgroundColor: "background.default",
+        color: "text.primary",
+        pt: "1rem",
+        pb: ".5rem",
+      }}
       position="static"
     >
       <Toolbar>
         <Container
-          maxWidth="lg"
+          maxWidth="xl"
           sx={{
             display: "flex",
             justifyContent: "space-between",
@@ -42,12 +47,6 @@ export const Navbar: React.FC = () => (
           </Box>
 
           <Stack direction="row" alignItems="center" spacing={1}>
-            <Link href="/login">
-              <Button variant="text" disableElevation>
-                Login
-              </Button>
-            </Link>
-
             <Link href="/register">
               <Button variant="contained" disableElevation>
                 Register

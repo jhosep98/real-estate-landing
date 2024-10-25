@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 
 export const Hero: React.FC = () => {
   return (
-    <Container maxWidth="lg" sx={{ mt: 1 }}>
+    <Container maxWidth="xl" sx={{ mt: 1 }}>
       <Box
         sx={{
           minHeight: "80vh",
@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
           justifyContent: "center",
           width: "100%",
           background:
-            'url("https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+            'url("https://res.cloudinary.com/diusjfaoe/image/upload/v1729897515/cms/image_536_caanzj.jpg")',
           backgroundSize: "cover",
           borderRadius: "3rem",
           paddingTop: "3rem",
