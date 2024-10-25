@@ -1,1 +1,1 @@
-export * from "./Hero";
+export * from "./hide-on-scroll";
