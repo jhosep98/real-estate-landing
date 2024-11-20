@@ -7,6 +7,7 @@ import {
   TabsBlockTemplate,
   SlidesCardTemplate,
 } from "@/templates";
+import { BewomoCta } from "@/components";
 
 export const MainBlocks: React.FC = () => {
   return (
@@ -20,6 +21,8 @@ export const MainBlocks: React.FC = () => {
       <TabsBlockTemplate />
 
       <SlidesCardTemplate />
+
+      <BewomoCta />
     </Box>
   );
 };
