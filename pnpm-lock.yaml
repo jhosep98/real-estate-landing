@@ -24,8 +24,8 @@ dependencies:
     specifier: 0.0.871-beta
     version: 0.0.871-beta(@date-io/date-fns@2.17.0)(@dnd-kit/core@6.1.0)(@dnd-kit/sortable@7.0.2)(@dnd-kit/utilities@3.2.2)(@emotion/react@11.13.3)(@emotion/styled@11.13.0)(@iconify/react@5.0.2)(@mui/material@6.1.5)(@mui/system@5.16.7)(@types/react-dom@18.3.0)(@types/react@18.3.3)(@wulperstudio/editor-render@0.0.8-beta)(buffer@6.0.3)(concat-map@0.0.2)(date-fns@2.30.0)(dayjs@1.11.13)(emoji-picker-react@3.6.5)(framer-motion@11.11.8)(libphonenumber-js@1.10.51)(mark.js@8.11.1)(react-beautiful-dnd@13.1.1)(react-color@2.19.3)(react-dom@18.3.1)(react-draggable@4.4.6)(react-dropzone@14.3.5)(react-player@2.12.0)(react-signature-pad-wrapper@3.4.1)(react-table@7.8.0)(react-window@1.8.10)(react@18.3.1)(uuid@8.3.2)
   '@wulperstudio/cta':
-    specifier: 0.0.10-beta
-    version: 0.0.10-beta(@date-io/date-fns@2.17.0)(@dnd-kit/core@6.1.0)(@dnd-kit/sortable@7.0.2)(@mui/base@5.0.0-beta.61)(@mui/lab@5.0.0-alpha.173)(@mui/x-date-pickers@5.0.20)(@types/react-dom@18.3.0)(@types/react@18.3.3)(@wulperstudio/editor-render@0.0.8-beta)(buffer@6.0.3)(concat-map@0.0.2)(date-fns@2.30.0)(dayjs@1.11.13)(emoji-picker-react@3.6.5)(install@0.13.0)(libphonenumber-js@1.10.51)(mark.js@8.11.1)(react-beautiful-dnd@13.1.1)(react-color@2.19.3)(react-draggable@4.4.6)(react-dropzone@14.3.5)(react-player@2.12.0)(react-signature-pad-wrapper@3.4.1)(react-table@7.8.0)(react-window@1.8.10)(uuid@8.3.2)
+    specifier: 0.0.11-beta
+    version: 0.0.11-beta(@date-io/date-fns@2.17.0)(@dnd-kit/core@6.1.0)(@dnd-kit/sortable@7.0.2)(@mui/base@5.0.0-beta.61)(@mui/lab@5.0.0-alpha.173)(@mui/x-date-pickers@5.0.20)(@types/react-dom@18.3.0)(@types/react@18.3.3)(@wulperstudio/editor-render@0.0.8-beta)(buffer@6.0.3)(concat-map@0.0.2)(date-fns@2.30.0)(dayjs@1.11.13)(emoji-picker-react@3.6.5)(install@0.13.0)(libphonenumber-js@1.10.51)(mark.js@8.11.1)(react-beautiful-dnd@13.1.1)(react-color@2.19.3)(react-draggable@4.4.6)(react-dropzone@14.3.5)(react-player@2.12.0)(react-signature-pad-wrapper@3.4.1)(react-table@7.8.0)(react-window@1.8.10)(uuid@8.3.2)
   dayjs:
     specifier: 1.11.13
     version: 1.11.13
@@ -1816,8 +1816,8 @@ packages:
       - moment
     dev: false
 
-  /@wulperstudio/cta@0.0.10-beta(@date-io/date-fns@2.17.0)(@dnd-kit/core@6.1.0)(@dnd-kit/sortable@7.0.2)(@mui/base@5.0.0-beta.61)(@mui/lab@5.0.0-alpha.173)(@mui/x-date-pickers@5.0.20)(@types/react-dom@18.3.0)(@types/react@18.3.3)(@wulperstudio/editor-render@0.0.8-beta)(buffer@6.0.3)(concat-map@0.0.2)(date-fns@2.30.0)(dayjs@1.11.13)(emoji-picker-react@3.6.5)(install@0.13.0)(libphonenumber-js@1.10.51)(mark.js@8.11.1)(react-beautiful-dnd@13.1.1)(react-color@2.19.3)(react-draggable@4.4.6)(react-dropzone@14.3.5)(react-player@2.12.0)(react-signature-pad-wrapper@3.4.1)(react-table@7.8.0)(react-window@1.8.10)(uuid@8.3.2):
-    resolution: {integrity: sha512-q8HaFBohuHGtuFkE3ctV9lyQOR5yBBKwLOfhPE2OCeCea20D58XDtL9qKGnxWAehtQEOIWY8aCqHdHbrEO0BPA==}
+  /@wulperstudio/cta@0.0.11-beta(@date-io/date-fns@2.17.0)(@dnd-kit/core@6.1.0)(@dnd-kit/sortable@7.0.2)(@mui/base@5.0.0-beta.61)(@mui/lab@5.0.0-alpha.173)(@mui/x-date-pickers@5.0.20)(@types/react-dom@18.3.0)(@types/react@18.3.3)(@wulperstudio/editor-render@0.0.8-beta)(buffer@6.0.3)(concat-map@0.0.2)(date-fns@2.30.0)(dayjs@1.11.13)(emoji-picker-react@3.6.5)(install@0.13.0)(libphonenumber-js@1.10.51)(mark.js@8.11.1)(react-beautiful-dnd@13.1.1)(react-color@2.19.3)(react-draggable@4.4.6)(react-dropzone@14.3.5)(react-player@2.12.0)(react-signature-pad-wrapper@3.4.1)(react-table@7.8.0)(react-window@1.8.10)(uuid@8.3.2):
+    resolution: {integrity: sha512-jnvD85jg8Ef4bdS3nJRlAyLy/Yz656dHumruug0HguklE4lzRmWHKbWTpqpLmIKz2CBYcx1YuoN678oGvGRf6g==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@babel/runtime': 7.26.0
