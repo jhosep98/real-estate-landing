@@ -16,7 +16,7 @@ export const ClientCtaWidgetAbout: React.FC = () => {
 
   return (
     <CTAWidget
-      preference="b414e7f5-7c0b-485c-bb8d-54cf6a114a8a"
+      preference="cb3962c9-d32c-41e2-aa67-39e76fae779f"
       mode="test"
       id_handler="cta_handler"
       testHost={"https://real-estate-landing-tau.vercel.app/"}
