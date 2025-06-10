@@ -3,7 +3,7 @@
 import * as React from "react";
 import { CTAWidget } from "@wulperstudio/cta";
 
-export const ClientCtaWidget: React.FC = () => {
+export const ClientCtaWidgetAbout: React.FC = () => {
   const [host, setHost] = React.useState<string>(
     "https://real-estate-landing-tau.vercel.app/"
   );
@@ -16,7 +16,7 @@ export const ClientCtaWidget: React.FC = () => {
 
   return (
     <CTAWidget
-      preference="402a64c7-ec4e-46dc-b218-b4ca48470ebb" 
+      preference="b414e7f5-7c0b-485c-bb8d-54cf6a114a8a"
       mode="test"
       id_handler="cta_handler"
       testHost={"https://real-estate-landing-tau.vercel.app/"}
